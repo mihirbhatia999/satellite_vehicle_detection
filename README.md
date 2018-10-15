@@ -12,6 +12,9 @@ Our goal is to detect multiple vehicles from satellite images. We plan to use mu
 2. Multiple vehicles have to be detected 
 3. Some vehicles maybe paritially hidden by trees or other objects 
 
+## Data 
+Google Earth Images will be manually annotated 
+
 ## Reference
 [Classification-based vehicle detection in high-resolution satellite images](https://www.sciencedirect.com/science/article/pii/S092427160800097X)
 
