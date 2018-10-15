@@ -6,7 +6,7 @@ Mihir Bhatia, Gagandeep Singh Khanuja
 ## Goals
 Our goal is to detect multiple vehicles from satellite images. We plan to use multiple images from Google Earth and create a labelled dataset of cars. We use this dataset to train a neural network that will be able to detect multiple vehicles from satellite images. This will have applications for logistical applications for companies to keep track of number of trucks in multiple locations and also to automatically keep track of no. of parked cars at large events to check for activity levels in different regions of a city. 
 
-![alt text](.png)
+![](https://github.com/mihirbhatia999/satellite_vehicle_detection/blob/master/dlproject_image1.PNG)
 ## Challenges
 1. Preparation of the dataset i.e. we may have to manually extract certain features before feeding to the neural network. 
 2. Multiple vehicles have to be detected 
