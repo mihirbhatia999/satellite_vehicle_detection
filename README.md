@@ -14,6 +14,8 @@ Our goal is to detect multiple vehicles from satellite images. We plan to use mu
 
 ## Data 
 Google Earth Images will be manually annotated 
+[Images collected here](https://drive.google.com/drive/folders/1lHUf8nsSIMyJcGbh5l_9ioEXPMj9P6GG?usp=sharing)
+
 
 ## Reference
 [Classification-based vehicle detection in high-resolution satellite images](https://www.sciencedirect.com/science/article/pii/S092427160800097X)
