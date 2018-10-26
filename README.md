@@ -14,6 +14,7 @@ Our goal is to detect multiple vehicles from satellite images. We plan to use mu
 
 ## Data 
 Google Earth Images will be manually annotated 
+
 [Images collected here](https://drive.google.com/drive/folders/1lHUf8nsSIMyJcGbh5l_9ioEXPMj9P6GG?usp=sharing)
 
 
