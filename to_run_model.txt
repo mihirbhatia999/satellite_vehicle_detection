@@ -1,0 +1,21 @@
+This document can be used to setup the tensorflow object detection API and run the code from my file 
+
+STEPS TO SETUP : 
+
+1) INSTALL PROTOBUF 3.4 and run the setup.py file
+
+2) DOWNLOAD AND MAKE CHANGES TO CONFIG FILE  ------------------
+make changes to the configuration file corresponding to the model you want to run --> batch_size, paths of annotations, training images etc
+
+3) TRAIN YOUR MODEL-----------------
+python object_detection/train.py --logtostderr --train_dir=train --pipeline_config_path=faster_rcnn_resnet101.config
+
+4) GET FROZEN INFERENCE GRAPH FROM CHECKPOINT FILE----------------
+run the following from cmd (root)
+python object_detection/export_inference_graph.py  --input_type image_tensor --pipeline_config_path faster_rcnn_resnet101_coco.config --trained_checkpoint_prefix model.ckpt-10871 --output_directory output_inference_graph
+
+5) RUN YOUR MODEL ------------
+Run the following from cmd (root)
+python object_detection/object_detection_runner.py
+
+
